@@ -1,0 +1,61 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 103, 103);
+    padding: 2%;
+    border-radius: 0%;
+}
+h2{
+    background-color: rgb(255, 0, 51);
+    font-family:monospace;
+    padding: 2%;
+    color: azure;
+    text-shadow:2px 2px 5px #000000;
+}
+#mainimage{
+    padding: 10px;
+    background-color: rgb(70, 70, 70);
+    border-radius: 10px;
+    width: 200px;
+    height: 125px;
+    
+}
+a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: deeppink;
+    text-decoration: underline;
+}
+a:active{
+    color: rgb(0, 115, 115);
+}
+#button{
+    color: rgb(189, 63, 0);
+    box-sizing: border-box;
+}
+#button:hover{
+    background-color: yellow;
+}
+ol{
+    list-style-type: upper-roman;
+}
+ul{
+    width: 150px;
+}
+li{
+    margin: 10px 0px 0px 0px;
+}
+ul.illuminations{
+    list-style: outside circle;
+}
+ul.season{
+    list-style-position: inside;
+}

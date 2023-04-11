@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <script src=""></script>
+</head>
+
+<body>
+
+
+    <!-- <div id="divone">
+        div one is here
+        <button onclick="myfun('divone')">Div one</button>
+    </div>
+    <div id="divtwo">
+        div two is here
+        <button onclick="myfun('divtwo')">Div two</button>
+    </div>
+    <div id="divthree">
+        div three is here
+        <button onclick="myfun('divthree')">Div three</button>
+    </div>
+
+    <button onclick="myWP()">Whole page</button> -->
+
+
+    <!-- <h1>Welcome to this page</h1>
+    <button onmousedown="myfun()">Facebook</button>
+    <button onmouseenter="myTwitter()">Twitter</button>
+    <button onmouseup="mywhatsapp()">Whatsapp</button>
+    <button onmouseout="myyoutube()">Youtbe</button>
+    <button onkeydown="myfun()">Facebook</button>
+    <button onkeypress="myTwitter1()">Twitter</button>
+    <button onkeyup="mywhatsapp()">Whatsapp</button>
+    <br><br>
+
+
+    <button onclick="clearInterval(clock)">Stop Watch</button>
+    <p id="stoptime"></p><br><br>
+
+
+    <button onclick="clearInterval(alt)">Click me</button><br><br> -->
+
+
+    <p id="my-para"></p>
+
+    <script>
+
+        // function myWP(){
+        //     window.print();
+        // }
+
+        // function myfun(paravalue){
+        //     var backup = document.body.innerHTML;
+        //     var divcontent = document.getElementById(paravalue).innerHTML;
+        //     document.body.innerHTML = divcontent;
+        //     window.print();
+        //     document.body.innerHTML = backup;
+        // }
+
+
+        // function myfun(){
+        //     document.body.style.backgroundColor='#3b5999';
+        //     document.body.style.color='white';
+        // }
+        // function myTwitter(){
+        //     document.body.style.backgroundColor='#00aced';
+        //     document.body.style.color='white';
+        // }
+        // function mywhatsapp(){
+        //     document.body.style.backgroundColor='#25d366';
+        //     document.body.style.color='black';
+        // }
+        // function myyoutube(){
+        //     document.body.style.backgroundColor='#cd201f';
+        //     document.body.style.color='white';
+
+        // }
+
+
+        // var d = new Date();
+
+        // var month = d.getUTCMonth()+1;
+        // var day = d.getUTCDate();
+        // var year = d.getUTCFullYear();
+        // document.write("==>"+day+"/"+month+"/"+year);
+
+        // var date = new Date();
+        // document.write("<br>");
+        // date.setMonth(10);
+        // // date.setDate(22);
+        // // date.setFullYear(2022);
+        // document.write(date);
+
+
+        // var time = new Date();
+        // var t = time.getTime();
+        // var hour = time.getHours();
+        // var mini = time.getMinutes();
+        // var sec = time.getSeconds();
+
+
+        // document.write(hour );
+
+
+        // let clock = setInterval(clocktiming, 1000)
+        // function clocktiming(){
+        //     let d = new Date();
+        //     let t = d.toLocaleTimeString();
+        //     document.getElementById('stoptime').innerHTML=t;
+        // }
+
+
+        // let alt = setTimeout(showalert, 3000);
+
+        // function showalert(){
+        //     alert("Welcome to my website");
+        // }
+
+
+
+        // let x = 10;
+        // let y = 20;
+        // let a = eval("x+y")+"<br>";
+        // let b = eval("2+2")+"<br>";
+        // let c = eval("x*5")+"<br>";
+        // let solution = a + b + c;
+        // document.write(solution);
+        // document.write(eval("2+2")=== eval("5"));
+
+
+
+        // ==> GUESS THE NUMBER GAME
+        // let randomNumber = Math.random();
+        // randomNumber *=10;
+        // let roundNumber = Math.round(randomNumber);
+
+
+        // let userNumber = prompt("Guess your number")
+
+        // if (roundNumber == userNumber) {
+        //     console.log("You Win the Game")
+        //     console.log("Your number is "+userNumber);
+        //     console.log("Random number is "+roundNumber);
+        // }
+        // else{
+        //     console.log("You Lose")
+        //     console.log("Your number is "+userNumber);
+        //     console.log("Random number is "+roundNumber);
+        // }
+
+
+        // function employee(fileno){
+        //     console.log("Working on the file no "+fileno);
+        // }
+        // let data = employee(7);
+        // console.log(data);
+
+        // function add (num1, num2){
+        //     return num1 + num2;
+        // }
+        // let result = add(5,7);
+        // console.log(result);
+
+
+        // Recurion
+        // function writedata (data, times){
+        //     document.write(data);
+        //     if (times > 1) {
+        //         writedata(data, times - 1);
+        //     }
+        // }
+        // writedata("Hello <br>", 5);
+
+
+        // function factorial (num) {
+        //     if (num > 1) {
+        //         return num * factorial(num - 1);
+        //     }
+        //     return 1
+        // }
+        // console.log(factorial(6));
+
+
+        // Clousers
+        // let abc = 7;     //==> Global Scope
+        // function print (def){
+        //     // let def = 20;      //==> local Scope
+        //     // console.log(abc);
+        //     return function (ghi){
+        //         console.log(ghi+def);
+        //     }
+        // }
+        // let innerFunction = print(20);
+        // innerFunction(5);
+        // let innerFunction2 = print(100);
+        // innerFunction2(11);
+
+
+        // function saveUrl(url){
+        //     return function () {
+        //         fetch(url)
+        //         .then(response => response.json())
+        //         .then(json => console.log(json))
+        //     }
+        // }
+
+        // let makesRequest = saveUrl('https://jsonplaceholder.typicode.com/todos');
+        // makesRequest();
+        // makesRequest();
+
+
+        // let abc = 7;     //==> Global Scope
+        // function print (abc){
+        //     // let def = 5;
+        //     return function (def){
+        //         console.log(abc+def);
+        //     }
+        // }
+        // let innerFunction = print(8);
+        // innerFunction(5);
+
+
+
+        // ARRAY
+        // let months = ["january","February","March","April"]
+        // // months [4]="May";
+
+        // let shouldIStore = prompt("Should I store in array")
+        // if (shouldIStore === "yes") {
+        //     months.push("May");
+        // }
+        // console.log(months);
+
+
+        // let months = ["january","February","March","April"];
+        // months.shift();
+        // months.unshift("Jan");
+        // months.pop();
+
+
+        // console.log(months);
+
+
+       let myPara = document.getElementById("my-para");
+       console.log(mypara);
+
+
+        
+
+
+
+
+    </script>
+
+</body>
+
+</html>

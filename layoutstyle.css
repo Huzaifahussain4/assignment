@@ -1,0 +1,106 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #E9E8E8; */
+    background-color: #E9E8E8;
+    /* background-image: url("photo-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px 0px; */
+    margin: 0px;
+}
+li{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+li:hover{
+    border-radius: 10px;
+    margin: 10px;
+    background-color:#333b45;
+}
+ul{
+    padding: 5px;
+    padding-right: 50px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    padding: 0px 0px 0px 20px;
+    color: #E9E8E8;
+}
+a{
+    text-decoration: none;
+    color: #E9E8E8;
+}
+#nav{
+    z-index: 1;
+    /* margin: -8px; */
+    background-color: #20262E;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+}
+#feature{
+    background-color: #913175;
+    /* margin: 00px auto; */
+    /* justify-content: space-between; */
+    display: flex;
+    /* align-items: center; */
+    /* padding: 10px; */
+    justify-content: center;
+    width: 700px;
+}
+.product-detail{
+    
+    padding-left: 20px;
+    color: #E9E8E8;
+}
+
+a.button{
+    height: 36px;
+    background-image: url("images/plus-icon2.png");
+    text-indent: 10px;
+    display: inline-block;
+}
+#add-to-basket{
+    width: 174px;
+    background-position: 0px 0px;
+}
+#add-to-basket:hover{
+    background-position: 0px 40px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buy-button{
+    font-family: 'Montserrat', sans-serif;
+    color: #E9E8E8;
+    font-weight: 800;
+    /* border-color: #E9E8E8; */
+    border: 2px solid #E9E8E8;
+    border-radius: 5px;
+    background-color: #913175;
+    margin-top: 10px;
+    width: 100px;
+    padding: 5px;
+    transition-duration: 0.5s;
+}
+
+.buy-button:hover {
+    /* border: 2px solid #913175; */
+    background-color: #CD5888;
+}
+input .radio{
+    display: flex;
+    color: #913175;
+}
+.size{
+    font-size: small;
+}
+.details{
+    border-bottom: 1px solid #E9E8E8;
+    padding-bottom: 10px;
+}

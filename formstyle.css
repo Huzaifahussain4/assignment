@@ -1,0 +1,39 @@
+input{
+    font-size: 120%;
+    color: #5a5854;
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    border-radius: 100px;
+    padding: 5px 5px 5px 35px;
+    background-repeat: no-repeat;
+    background-position: 4px 4px;
+    display: block;
+    margin-bottom: 10px;
+    transition-duration: 0.5s;
+}
+input:focus{
+    background-color: #ffffff;
+    border: 1px #b1e1e4;
+}
+input#email:hover{
+    background-image: url("email-02.png");
+}
+input#twitter:hover{
+    background-image: url("twitter-02.png");
+}
+input#facebook:hover{
+    background-image: url("facebook-02.png");
+}
+input#email{
+    background-image: url("email-gray-02.png");
+    background-size: 23px;
+    background-repeat: no-repeat;
+}
+input#twitter{
+    background-image: url("twitter-gray-02.png");
+    background-size: 23px;
+}
+input#facebook{
+    background-image: url("facebook-gray-02.png");
+    background-size: 23px;
+}
