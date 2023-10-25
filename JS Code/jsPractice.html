@@ -211,15 +211,15 @@
         // makesRequest();
 
 
-        // let abc = 7;     //==> Global Scope
-        // function print (abc){
-        //     // let def = 5;
-        //     return function (def){
-        //         console.log(abc+def);
-        //     }
-        // }
-        // let innerFunction = print(8);
-        // innerFunction(5);
+        let abc = 7;     //==> Global Scope
+        function print (abc){
+            // let def = 5;
+            return function (def){
+                console.log(abc+def);
+            }
+        }
+        let innerFunction = print(8);
+        innerFunction(5);
 
 
 
