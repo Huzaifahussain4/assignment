@@ -198,16 +198,16 @@
         // innerFunction2(11);
 
 
-        // function saveUrl(url){
-        //     return function () {
-        //         fetch(url)
-        //         .then(response => response.json())
-        //         .then(json => console.log(json))
-        //     }
-        // }
+        function saveUrl(url){
+            return function () {
+                fetch(url)
+                .then(response => response.json())
+                .then(json => console.log(json))
+            }
+        }
 
-        // let makesRequest = saveUrl('https://jsonplaceholder.typicode.com/todos');
-        // makesRequest();
+        let makesRequest = saveUrl('https://jsonplaceholder.typicode.com/todos');
+        makesRequest();
         // makesRequest();
 
 
